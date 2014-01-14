@@ -68,7 +68,6 @@
 		D70066AF18854F7900B54D22 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D70066A418854F7900B54D22 /* CXMLNode_XPathExtensions.m */; };
 		D70066B11885502D00B54D22 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D70066B01885502D00B54D22 /* libz.dylib */; };
 		D70066B618855B2F00B54D22 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D70066B518855B2F00B54D22 /* libxml2.dylib */; };
-		D74D92F5188562E400FB84B7 /* SearchWebView.js in Sources */ = {isa = PBXBuildFile; fileRef = D74D92EB188562E400FB84B7 /* SearchWebView.js */; };
 		D74D92F6188562E400FB84B7 /* orangeslide.png in Resources */ = {isa = PBXBuildFile; fileRef = D74D92EC188562E400FB84B7 /* orangeslide.png */; };
 		D74D92F7188562E400FB84B7 /* slider_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = D74D92ED188562E400FB84B7 /* slider_ball.png */; };
 		D74D92F8188562E400FB84B7 /* yellowslide.png in Resources */ = {isa = PBXBuildFile; fileRef = D74D92EE188562E400FB84B7 /* yellowslide.png */; };
@@ -78,6 +77,7 @@
 		D74D92FC188562E400FB84B7 /* ChapterListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F2188562E400FB84B7 /* ChapterListViewController.xib */; };
 		D74D92FD188562E400FB84B7 /* MainWindow_.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F3188562E400FB84B7 /* MainWindow_.xib */; };
 		D74D92FE188562E400FB84B7 /* AePubReader-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F4188562E400FB84B7 /* AePubReader-Info.plist */; };
+		D74D930018858C7E00FB84B7 /* SearchWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = D74D92FF18858C7E00FB84B7 /* SearchWebView.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -196,7 +196,6 @@
 		D70066B01885502D00B54D22 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		D70066B21885513E00B54D22 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		D70066B518855B2F00B54D22 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = /usr/lib/libxml2.dylib; sourceTree = "<absolute>"; };
-		D74D92EB188562E400FB84B7 /* SearchWebView.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SearchWebView.js; sourceTree = "<group>"; };
 		D74D92EC188562E400FB84B7 /* orangeslide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeslide.png; sourceTree = "<group>"; };
 		D74D92ED188562E400FB84B7 /* slider_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_ball.png; sourceTree = "<group>"; };
 		D74D92EE188562E400FB84B7 /* yellowslide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowslide.png; sourceTree = "<group>"; };
@@ -206,6 +205,7 @@
 		D74D92F2188562E400FB84B7 /* ChapterListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterListViewController.xib; sourceTree = "<group>"; };
 		D74D92F3188562E400FB84B7 /* MainWindow_.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_.xib; sourceTree = "<group>"; };
 		D74D92F4188562E400FB84B7 /* AePubReader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AePubReader-Info.plist"; sourceTree = "<group>"; };
+		D74D92FF18858C7E00FB84B7 /* SearchWebView.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = SearchWebView.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -505,7 +505,7 @@
 		D74D92EA188562BD00FB84B7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D74D92EB188562E400FB84B7 /* SearchWebView.js */,
+				D74D92FF18858C7E00FB84B7 /* SearchWebView.js */,
 				D74D92EC188562E400FB84B7 /* orangeslide.png */,
 				D74D92ED188562E400FB84B7 /* slider_ball.png */,
 				D74D92EE188562E400FB84B7 /* yellowslide.png */,
@@ -570,6 +570,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74D930018858C7E00FB84B7 /* SearchWebView.js in Resources */,
 				D74D92F8188562E400FB84B7 /* yellowslide.png in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				1873ABE513D17378001A999B /* flip-illusion-oriented.jpg in Resources */,
@@ -623,7 +624,6 @@
 				D700668218854F1E00B54D22 /* ioapi.c in Sources */,
 				D700668318854F1E00B54D22 /* mztools.c in Sources */,
 				D700667018854E9300B54D22 /* UIWebView+SearchWebView.m in Sources */,
-				D74D92F5188562E400FB84B7 /* SearchWebView.js in Sources */,
 				1873AC4413D1743A001A999B /* Layout7.m in Sources */,
 				1873AC4513D1743A001A999B /* Layout8.m in Sources */,
 				D70066A718854F7900B54D22 /* CXMLDocument.m in Sources */,
