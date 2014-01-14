@@ -165,7 +165,7 @@
 }
 
 - (void)switchToPub:(id)sender{
-    UIViewController *viewController = (UIViewController*)[FlipPubAppDelegate instance].detailViewController;
+    UIViewController *viewController = (UIViewController*)[FlipPubAppDelegate instance].epubViewController;
     UIViewController *rootViewController = (UIViewController*)[FlipPubAppDelegate instance].viewController;
     viewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [rootViewController presentViewController:viewController animated:YES completion:nil];

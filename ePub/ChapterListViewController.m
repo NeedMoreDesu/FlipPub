@@ -103,6 +103,7 @@
     cell.textLabel.lineBreakMode = UILineBreakModeMiddleTruncation;
     cell.textLabel.adjustsFontSizeToFitWidth = YES;
     cell.textLabel.text = [[epubViewController.loadedEpub.spineArray objectAtIndex:[indexPath row]] title];
+    
     return cell;
 }
 

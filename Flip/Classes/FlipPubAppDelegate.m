@@ -38,7 +38,7 @@
 
 @synthesize window;
 @synthesize viewController;
-@synthesize detailViewController;
+@synthesize epubViewController;
 
 + (FlipPubAppDelegate *) instance {
 	return (FlipPubAppDelegate *) [[UIApplication sharedApplication] delegate];
@@ -57,7 +57,16 @@
     
 //    self.window.rootViewController = self.detailViewController;
 //    [self.window makeKeyAndVisible];
-    [self.detailViewController loadEpub:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"vhugo" ofType:@"epub"]]];
+    [self.epubViewController loadEpub:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"vhugo" ofType:@"epub"]]];
+
+    int targetSpineIndex = arc4random() % self.epubViewController.loadedEpub.spineArray.count;
+    NSLog(@"%@", [self.epubViewController.loadedEpub.spineArray[targetSpineIndex] title]);
+
+    double delayInSeconds = 6.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        [epubViewController loadSpine:targetSpineIndex atPageIndex:0 highlightSearchResult:nil];
+    });
 
 	return YES;
 }
@@ -105,7 +114,7 @@
 
 - (void)dealloc {
     [viewController release];
-    [detailViewController release];
+    [epubViewController release];
     [window release];
     [super dealloc];
 }

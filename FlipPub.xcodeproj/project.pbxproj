@@ -38,7 +38,6 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		D700666918854E9300B54D22 /* AePubReaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D700665518854E9300B54D22 /* AePubReaderAppDelegate.m */; };
 		D700666A18854E9300B54D22 /* ChapterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D700665718854E9300B54D22 /* ChapterListViewController.m */; };
 		D700666B18854E9300B54D22 /* EPub.m in Sources */ = {isa = PBXBuildFile; fileRef = D700665918854E9300B54D22 /* EPub.m */; };
 		D700666C18854E9300B54D22 /* EPubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D700665B18854E9300B54D22 /* EPubViewController.m */; };
@@ -75,7 +74,6 @@
 		D74D92FA188562E400FB84B7 /* EPubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F0188562E400FB84B7 /* EPubView.xib */; };
 		D74D92FB188562E400FB84B7 /* SearchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F1188562E400FB84B7 /* SearchResultsViewController.xib */; };
 		D74D92FC188562E400FB84B7 /* ChapterListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F2188562E400FB84B7 /* ChapterListViewController.xib */; };
-		D74D92FD188562E400FB84B7 /* MainWindow_.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F3188562E400FB84B7 /* MainWindow_.xib */; };
 		D74D92FE188562E400FB84B7 /* AePubReader-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F4188562E400FB84B7 /* AePubReader-Info.plist */; };
 		D74D930018858C7E00FB84B7 /* SearchWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = D74D92FF18858C7E00FB84B7 /* SearchWebView.js */; };
 /* End PBXBuildFile section */
@@ -125,8 +123,8 @@
 		18D45F7A13D4365000BB814D /* close-popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-popup.png"; sourceTree = "<group>"; };
 		18FD403613DB18460080C465 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* FlipPubAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipPubAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* FlipPubAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipPubAppDelegate.m; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* FlipPubAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipPubAppDelegate.h; path = Flip/Classes/FlipPubAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FlipPubAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipPubAppDelegate.m; path = Flip/Classes/FlipPubAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* FlipPub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipPub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -134,8 +132,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FlipPub_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipPub_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FlipPub-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FlipPub-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		D700665418854E9300B54D22 /* AePubReaderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AePubReaderAppDelegate.h; sourceTree = "<group>"; };
-		D700665518854E9300B54D22 /* AePubReaderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AePubReaderAppDelegate.m; sourceTree = "<group>"; };
 		D700665618854E9300B54D22 /* ChapterListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterListViewController.h; sourceTree = "<group>"; };
 		D700665718854E9300B54D22 /* ChapterListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterListViewController.m; sourceTree = "<group>"; };
 		D700665818854E9300B54D22 /* EPub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPub.h; sourceTree = "<group>"; };
@@ -203,7 +199,6 @@
 		D74D92F0188562E400FB84B7 /* EPubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPubView.xib; sourceTree = "<group>"; };
 		D74D92F1188562E400FB84B7 /* SearchResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultsViewController.xib; sourceTree = "<group>"; };
 		D74D92F2188562E400FB84B7 /* ChapterListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterListViewController.xib; sourceTree = "<group>"; };
-		D74D92F3188562E400FB84B7 /* MainWindow_.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_.xib; sourceTree = "<group>"; };
 		D74D92F4188562E400FB84B7 /* AePubReader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AePubReader-Info.plist"; sourceTree = "<group>"; };
 		D74D92FF18858C7E00FB84B7 /* SearchWebView.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = SearchWebView.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -234,8 +229,6 @@
 				1873AAF813D16F29001A999B /* Layouts */,
 				1873AAF713D16F21001A999B /* Views */,
 				1873AAF613D16F0B001A999B /* Controllers */,
-				1D3623240D0F684500981E51 /* FlipPubAppDelegate.h */,
-				1D3623250D0F684500981E51 /* FlipPubAppDelegate.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -328,6 +321,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1D3623240D0F684500981E51 /* FlipPubAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FlipPubAppDelegate.m */,
 				D70065F618854BFF00B54D22 /* ePub */,
 				D70065F518854BF000B54D22 /* Flip */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -388,8 +383,6 @@
 			children = (
 				D700667318854EC500B54D22 /* TouchXML */,
 				D700667418854EE100B54D22 /* ZipArchive */,
-				D700665418854E9300B54D22 /* AePubReaderAppDelegate.h */,
-				D700665518854E9300B54D22 /* AePubReaderAppDelegate.m */,
 				D700665618854E9300B54D22 /* ChapterListViewController.h */,
 				D700665718854E9300B54D22 /* ChapterListViewController.m */,
 				D700665818854E9300B54D22 /* EPub.h */,
@@ -512,7 +505,6 @@
 				D74D92F0188562E400FB84B7 /* EPubView.xib */,
 				D74D92F1188562E400FB84B7 /* SearchResultsViewController.xib */,
 				D74D92F2188562E400FB84B7 /* ChapterListViewController.xib */,
-				D74D92F3188562E400FB84B7 /* MainWindow_.xib */,
 				D74D92F4188562E400FB84B7 /* AePubReader-Info.plist */,
 			);
 			path = Resources;
@@ -583,7 +575,6 @@
 				D74D92F6188562E400FB84B7 /* orangeslide.png in Resources */,
 				180E01AC13D1B201005DF14C /* missing-people.png in Resources */,
 				D74D92F7188562E400FB84B7 /* slider_ball.png in Resources */,
-				D74D92FD188562E400FB84B7 /* MainWindow_.xib in Resources */,
 				D74D92FA188562E400FB84B7 /* EPubView.xib in Resources */,
 				18D45F7B13D4365000BB814D /* close-popup.png in Resources */,
 				D74D92FE188562E400FB84B7 /* AePubReader-Info.plist in Resources */,
@@ -620,7 +611,6 @@
 				D700666E18854E9300B54D22 /* SearchResultsViewController.m in Sources */,
 				D70066AB18854F7900B54D22 /* CXMLElement_ElementTreeExtensions.m in Sources */,
 				1873AC4313D1743A001A999B /* Layout6.m in Sources */,
-				D700666918854E9300B54D22 /* AePubReaderAppDelegate.m in Sources */,
 				D700668218854F1E00B54D22 /* ioapi.c in Sources */,
 				D700668318854F1E00B54D22 /* mztools.c in Sources */,
 				D700667018854E9300B54D22 /* UIWebView+SearchWebView.m in Sources */,

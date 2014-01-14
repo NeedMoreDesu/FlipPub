@@ -39,7 +39,7 @@
 @interface FlipPubAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     WallViewController *viewController;
-    EPubViewController *detailViewController;
+    EPubViewController *epubViewController;
 }
 
 + (FlipPubAppDelegate *) instance;
@@ -48,7 +48,7 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) WallViewController *viewController;
-@property (nonatomic, retain) IBOutlet EPubViewController *detailViewController;
+@property (nonatomic, retain) IBOutlet EPubViewController *epubViewController;
 
 @end
 

@@ -22,7 +22,7 @@
         </window>
         <customObject id="6" userLabel="FlipPub App Delegate" customClass="FlipPubAppDelegate">
             <connections>
-                <outlet property="detailViewController" destination="Ugk-BB-e20" id="Iv6-Lx-Nff"/>
+                <outlet property="epubViewController" destination="Ugk-BB-e20" id="Lqx-B7-Qrs"/>
                 <outlet property="window" destination="2" id="10"/>
             </connections>
         </customObject>
