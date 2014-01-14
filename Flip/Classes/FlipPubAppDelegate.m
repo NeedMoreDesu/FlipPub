@@ -22,24 +22,26 @@
  THE SOFTWARE.
  */
 //
-//  FlipViewAppDelegate.m
-//  FlipView
+//  FlipPubAppDelegate.m
+//  FlipPub
 //
 //  Created by Reefaq Mohammed on 16/07/11.
  
 //
 
-#import "FlipViewAppDelegate.h"
+#import "FlipPubAppDelegate.h"
 #import "WallViewController.h"
+#import "EPubViewController.h"
 
-@implementation FlipViewAppDelegate
+
+@implementation FlipPubAppDelegate
 
 @synthesize window;
 @synthesize viewController;
+@synthesize detailViewController;
 
-
-+ (FlipViewAppDelegate *) instance {
-	return (FlipViewAppDelegate *) [[UIApplication sharedApplication] delegate];
++ (FlipPubAppDelegate *) instance {
+	return (FlipPubAppDelegate *) [[UIApplication sharedApplication] delegate];
 }
 
 #pragma mark -
@@ -52,6 +54,10 @@
 	
     [self.window setRootViewController:viewController];
     [self.window makeKeyAndVisible];
+    
+//    self.window.rootViewController = self.detailViewController;
+//    [self.window makeKeyAndVisible];
+    [self.detailViewController loadEpub:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"vhugo" ofType:@"epub"]]];
 
 	return YES;
 }
@@ -99,6 +105,7 @@
 
 - (void)dealloc {
     [viewController release];
+    [detailViewController release];
     [window release];
     [super dealloc];
 }

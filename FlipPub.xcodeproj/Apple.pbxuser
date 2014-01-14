@@ -17,13 +17,13 @@
 	};
 	1832E8D813EC560E00F5FAFA /* PlistBookmark */ = {
 		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* FlipView-Info.plist */;
+		fRef = 8D1107310486CEB800E47090 /* FlipPub-Info.plist */;
 		fallbackIsa = PBXBookmark;
 		isK = 0;
 		kPath = (
 			CFBundleIdentifier,
 		);
-		name = "/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/FlipView-Info.plist";
+		name = "/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipPub/FlipPub-Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
@@ -69,8 +69,8 @@
 	};
 	1832E8DE13EC560E00F5FAFA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* FlipViewAppDelegate.h */;
-		name = "FlipViewAppDelegate.h: 20";
+		fRef = 1D3623240D0F684500981E51 /* FlipPubAppDelegate.h */;
+		name = "FlipPubAppDelegate.h: 20";
 		rLen = 0;
 		rLoc = 989;
 		rType = 0;
@@ -79,8 +79,8 @@
 	};
 	1832E8DF13EC560E00F5FAFA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* FlipViewAppDelegate.m */;
-		name = "FlipViewAppDelegate.m: 24";
+		fRef = 1D3623250D0F684500981E51 /* FlipPubAppDelegate.m */;
+		name = "FlipPubAppDelegate.m: 24";
 		rLen = 0;
 		rLoc = 1140;
 		rType = 0;
@@ -107,7 +107,7 @@
 		vrLen = 1547;
 		vrLoc = 475;
 	};
-	1873AAE513D16E93001A999B /* FlipView */ = {
+	1873AAE513D16E93001A999B /* FlipPub */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -130,7 +130,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = FlipView;
+		name = FlipPub;
 		savedGlobals = {
 		};
 		showTypeColumn = 0;
@@ -572,8 +572,8 @@
 	};
 	18FD403E13DB1A560080C465 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 32CA4F630368D1EE00C91783 /* FlipView_Prefix.pch */;
-		name = "FlipView_Prefix.pch: 9";
+		fRef = 32CA4F630368D1EE00C91783 /* FlipPub_Prefix.pch */;
+		name = "FlipPub_Prefix.pch: 9";
 		rLen = 19;
 		rLoc = 213;
 		rType = 0;
@@ -750,39 +750,39 @@
 		vrLen = 1447;
 		vrLoc = 0;
 	};
-	1D3623240D0F684500981E51 /* FlipViewAppDelegate.h */ = {
+	1D3623240D0F684500981E51 /* FlipPubAppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1407, 663}}";
 			sepNavSelRange = "{989, 0}";
 			sepNavVisRange = "{0, 1671}";
 		};
 	};
-	1D3623250D0F684500981E51 /* FlipViewAppDelegate.m */ = {
+	1D3623250D0F684500981E51 /* FlipPubAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1407, 1391}}";
 			sepNavSelRange = "{1140, 0}";
 			sepNavVisRange = "{0, 1553}";
 		};
 	};
-	1D6058900D05DD3D006BFB54 /* FlipView */ = {
+	1D6058900D05DD3D006BFB54 /* FlipPub */ = {
 		activeExec = 0;
 		executables = (
-			1873AAE513D16E93001A999B /* FlipView */,
+			1873AAE513D16E93001A999B /* FlipPub */,
 		);
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = 1873AAE513D16E93001A999B /* FlipView */;
+		activeExecutable = 1873AAE513D16E93001A999B /* FlipPub */;
 		activeSDKPreference = iphonesimulator4.2;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* FlipView */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FlipPub */;
 		addToTargets = (
-			1D6058900D05DD3D006BFB54 /* FlipView */,
+			1D6058900D05DD3D006BFB54 /* FlipPub */,
 		);
 		breakpoints = (
 		);
 		codeSenseManager = 1873AAEA13D16E9C001A999B /* Code sense */;
 		executables = (
-			1873AAE513D16E93001A999B /* FlipView */,
+			1873AAE513D16E93001A999B /* FlipPub */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -893,7 +893,7 @@
 			sepNavVisRange = "{0, 1447}";
 		};
 	};
-	32CA4F630368D1EE00C91783 /* FlipView_Prefix.pch */ = {
+	32CA4F630368D1EE00C91783 /* FlipPub_Prefix.pch */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1407, 607}}";
 			sepNavSelRange = "{213, 19}";

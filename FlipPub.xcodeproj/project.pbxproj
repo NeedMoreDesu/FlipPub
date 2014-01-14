@@ -32,7 +32,7 @@
 		1873AC5913D17550001A999B /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873AC5813D17550001A999B /* MessageModel.m */; };
 		18D45F7B13D4365000BB814D /* close-popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D45F7A13D4365000BB814D /* close-popup.png */; };
 		18FD403713DB18460080C465 /* License in Resources */ = {isa = PBXBuildFile; fileRef = 18FD403613DB18460080C465 /* License */; };
-		1D3623260D0F684500981E51 /* FlipViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FlipViewAppDelegate.m */; };
+		1D3623260D0F684500981E51 /* FlipPubAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FlipPubAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -67,6 +67,17 @@
 		D70066AE18854F7900B54D22 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D70066A218854F7900B54D22 /* CXMLNode_PrivateExtensions.m */; };
 		D70066AF18854F7900B54D22 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D70066A418854F7900B54D22 /* CXMLNode_XPathExtensions.m */; };
 		D70066B11885502D00B54D22 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D70066B01885502D00B54D22 /* libz.dylib */; };
+		D70066B618855B2F00B54D22 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D70066B518855B2F00B54D22 /* libxml2.dylib */; };
+		D74D92F5188562E400FB84B7 /* SearchWebView.js in Sources */ = {isa = PBXBuildFile; fileRef = D74D92EB188562E400FB84B7 /* SearchWebView.js */; };
+		D74D92F6188562E400FB84B7 /* orangeslide.png in Resources */ = {isa = PBXBuildFile; fileRef = D74D92EC188562E400FB84B7 /* orangeslide.png */; };
+		D74D92F7188562E400FB84B7 /* slider_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = D74D92ED188562E400FB84B7 /* slider_ball.png */; };
+		D74D92F8188562E400FB84B7 /* yellowslide.png in Resources */ = {isa = PBXBuildFile; fileRef = D74D92EE188562E400FB84B7 /* yellowslide.png */; };
+		D74D92F9188562E400FB84B7 /* vhugo.epub in Resources */ = {isa = PBXBuildFile; fileRef = D74D92EF188562E400FB84B7 /* vhugo.epub */; };
+		D74D92FA188562E400FB84B7 /* EPubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F0188562E400FB84B7 /* EPubView.xib */; };
+		D74D92FB188562E400FB84B7 /* SearchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F1188562E400FB84B7 /* SearchResultsViewController.xib */; };
+		D74D92FC188562E400FB84B7 /* ChapterListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F2188562E400FB84B7 /* ChapterListViewController.xib */; };
+		D74D92FD188562E400FB84B7 /* MainWindow_.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F3188562E400FB84B7 /* MainWindow_.xib */; };
+		D74D92FE188562E400FB84B7 /* AePubReader-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F4188562E400FB84B7 /* AePubReader-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,15 +125,15 @@
 		18D45F7A13D4365000BB814D /* close-popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-popup.png"; sourceTree = "<group>"; };
 		18FD403613DB18460080C465 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* FlipViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipViewAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* FlipViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipViewAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* FlipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3623240D0F684500981E51 /* FlipPubAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipPubAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FlipPubAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipPubAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* FlipPub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipPub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Flip/MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* FlipView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipView_Prefix.pch; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* FlipView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FlipView-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* FlipPub_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipPub_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FlipPub-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FlipPub-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D700665418854E9300B54D22 /* AePubReaderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AePubReaderAppDelegate.h; sourceTree = "<group>"; };
 		D700665518854E9300B54D22 /* AePubReaderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AePubReaderAppDelegate.m; sourceTree = "<group>"; };
 		D700665618854E9300B54D22 /* ChapterListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterListViewController.h; sourceTree = "<group>"; };
@@ -184,6 +195,17 @@
 		D70066A518854F7900B54D22 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
 		D70066B01885502D00B54D22 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		D70066B21885513E00B54D22 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		D70066B518855B2F00B54D22 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = /usr/lib/libxml2.dylib; sourceTree = "<absolute>"; };
+		D74D92EB188562E400FB84B7 /* SearchWebView.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SearchWebView.js; sourceTree = "<group>"; };
+		D74D92EC188562E400FB84B7 /* orangeslide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeslide.png; sourceTree = "<group>"; };
+		D74D92ED188562E400FB84B7 /* slider_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_ball.png; sourceTree = "<group>"; };
+		D74D92EE188562E400FB84B7 /* yellowslide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowslide.png; sourceTree = "<group>"; };
+		D74D92EF188562E400FB84B7 /* vhugo.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = vhugo.epub; sourceTree = "<group>"; };
+		D74D92F0188562E400FB84B7 /* EPubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPubView.xib; sourceTree = "<group>"; };
+		D74D92F1188562E400FB84B7 /* SearchResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultsViewController.xib; sourceTree = "<group>"; };
+		D74D92F2188562E400FB84B7 /* ChapterListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterListViewController.xib; sourceTree = "<group>"; };
+		D74D92F3188562E400FB84B7 /* MainWindow_.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_.xib; sourceTree = "<group>"; };
+		D74D92F4188562E400FB84B7 /* AePubReader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AePubReader-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +218,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				1873AB2513D17044001A999B /* QuartzCore.framework in Frameworks */,
+				D70066B618855B2F00B54D22 /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +234,8 @@
 				1873AAF813D16F29001A999B /* Layouts */,
 				1873AAF713D16F21001A999B /* Views */,
 				1873AAF613D16F0B001A999B /* Controllers */,
-				1D3623240D0F684500981E51 /* FlipViewAppDelegate.h */,
-				1D3623250D0F684500981E51 /* FlipViewAppDelegate.m */,
+				1D3623240D0F684500981E51 /* FlipPubAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FlipPubAppDelegate.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -297,7 +320,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* FlipView.app */,
+				1D6058910D05DD3D006BFB54 /* FlipPub.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -305,10 +328,10 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107310486CEB800E47090 /* FlipView-Info.plist */,
-				32CA4F630368D1EE00C91783 /* FlipView_Prefix.pch */,
 				D70065F618854BFF00B54D22 /* ePub */,
 				D70065F518854BF000B54D22 /* Flip */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				D74D92E91885614D00FB84B7 /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -318,8 +341,10 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
+			path = Flip;
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -347,8 +372,6 @@
 			children = (
 				18FD403613DB18460080C465 /* License */,
 				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				18D45F7A13D4365000BB814D /* close-popup.png */,
 				180E01AB13D1B201005DF14C /* missing-people.png */,
@@ -356,7 +379,6 @@
 				1873AC0C13D173AC001A999B /* selected-page.png */,
 				1873ABE313D17377001A999B /* flip-illusion-oriented.jpg */,
 				1873ABE413D17378001A999B /* flip-illusion.png */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 			);
 			path = Flip;
 			sourceTree = "<group>";
@@ -387,6 +409,7 @@
 				D700666618854E9300B54D22 /* NSString+HTML.m */,
 				D700666718854E9300B54D22 /* GTMNSString+HTML.h */,
 				D700666818854E9300B54D22 /* GTMNSString+HTML.m */,
+				D74D92EA188562BD00FB84B7 /* Resources */,
 			);
 			path = ePub;
 			sourceTree = "<group>";
@@ -467,12 +490,40 @@
 			path = Creation;
 			sourceTree = "<group>";
 		};
+		D74D92E91885614D00FB84B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D74D92EF188562E400FB84B7 /* vhugo.epub */,
+				D70066B518855B2F00B54D22 /* libxml2.dylib */,
+				8D1107310486CEB800E47090 /* FlipPub-Info.plist */,
+				32CA4F630368D1EE00C91783 /* FlipPub_Prefix.pch */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D74D92EA188562BD00FB84B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D74D92EB188562E400FB84B7 /* SearchWebView.js */,
+				D74D92EC188562E400FB84B7 /* orangeslide.png */,
+				D74D92ED188562E400FB84B7 /* slider_ball.png */,
+				D74D92EE188562E400FB84B7 /* yellowslide.png */,
+				D74D92F0188562E400FB84B7 /* EPubView.xib */,
+				D74D92F1188562E400FB84B7 /* SearchResultsViewController.xib */,
+				D74D92F2188562E400FB84B7 /* ChapterListViewController.xib */,
+				D74D92F3188562E400FB84B7 /* MainWindow_.xib */,
+				D74D92F4188562E400FB84B7 /* AePubReader-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* FlipView */ = {
+		1D6058900D05DD3D006BFB54 /* FlipPub */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FlipView" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FlipPub" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -482,9 +533,9 @@
 			);
 			dependencies = (
 			);
-			name = FlipView;
-			productName = FlipViewProject;
-			productReference = 1D6058910D05DD3D006BFB54 /* FlipView.app */;
+			name = FlipPub;
+			productName = FlipPubProject;
+			productReference = 1D6058910D05DD3D006BFB54 /* FlipPub.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -495,7 +546,7 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlipView" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlipPub" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -509,7 +560,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* FlipView */,
+				1D6058900D05DD3D006BFB54 /* FlipPub */,
 			);
 		};
 /* End PBXProject section */
@@ -519,13 +570,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74D92F8188562E400FB84B7 /* yellowslide.png in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				1873ABE513D17378001A999B /* flip-illusion-oriented.jpg in Resources */,
 				1873ABE613D17378001A999B /* flip-illusion.png in Resources */,
 				1873AC0D13D173AC001A999B /* unselected-page.png in Resources */,
+				D74D92F9188562E400FB84B7 /* vhugo.epub in Resources */,
+				D74D92FC188562E400FB84B7 /* ChapterListViewController.xib in Resources */,
 				1873AC0E13D173AC001A999B /* selected-page.png in Resources */,
+				D74D92FB188562E400FB84B7 /* SearchResultsViewController.xib in Resources */,
+				D74D92F6188562E400FB84B7 /* orangeslide.png in Resources */,
 				180E01AC13D1B201005DF14C /* missing-people.png in Resources */,
+				D74D92F7188562E400FB84B7 /* slider_ball.png in Resources */,
+				D74D92FD188562E400FB84B7 /* MainWindow_.xib in Resources */,
+				D74D92FA188562E400FB84B7 /* EPubView.xib in Resources */,
 				18D45F7B13D4365000BB814D /* close-popup.png in Resources */,
+				D74D92FE188562E400FB84B7 /* AePubReader-Info.plist in Resources */,
 				18FD403713DB18460080C465 /* License in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,7 +601,7 @@
 				D700666F18854E9300B54D22 /* SearchResult.m in Sources */,
 				D700668F18854F6C00B54D22 /* CXMLDocument_CreationExtensions.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* FlipViewAppDelegate.m in Sources */,
+				1D3623260D0F684500981E51 /* FlipPubAppDelegate.m in Sources */,
 				1873AB0413D16FB3001A999B /* AFKPageFlipper.m in Sources */,
 				D700668A18854F6500B54D22 /* CTidy.m in Sources */,
 				D700667718854F0300B54D22 /* ZipArchive.mm in Sources */,
@@ -563,6 +623,7 @@
 				D700668218854F1E00B54D22 /* ioapi.c in Sources */,
 				D700668318854F1E00B54D22 /* mztools.c in Sources */,
 				D700667018854E9300B54D22 /* UIWebView+SearchWebView.m in Sources */,
+				D74D92F5188562E400FB84B7 /* SearchWebView.js in Sources */,
 				1873AC4413D1743A001A999B /* Layout7.m in Sources */,
 				1873AC4513D1743A001A999B /* Layout8.m in Sources */,
 				D70066A718854F7900B54D22 /* CXMLDocument.m in Sources */,
@@ -598,10 +659,15 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = FlipView_Prefix.pch;
-				INFOPLIST_FILE = "FlipView-Info.plist";
+				GCC_PREFIX_HEADER = FlipPub_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "FlipPub-Info.plist";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = FlipView;
+				PRODUCT_NAME = FlipPub;
 			};
 			name = Debug;
 		};
@@ -611,10 +677,15 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = FlipView_Prefix.pch;
-				INFOPLIST_FILE = "FlipView-Info.plist";
+				GCC_PREFIX_HEADER = FlipPub_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "FlipPub-Info.plist";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = FlipView;
+				PRODUCT_NAME = FlipPub;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -650,7 +721,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FlipView" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FlipPub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -659,7 +730,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlipView" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlipPub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

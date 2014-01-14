@@ -23,7 +23,7 @@
  */
 //
 //  UIViewExtention.h
-//  FlipView
+//  FlipPub
 //
 //  Created by Reefaq Mohammed on 16/07/11.
  

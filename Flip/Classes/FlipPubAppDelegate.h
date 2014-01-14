@@ -22,8 +22,8 @@
  THE SOFTWARE.
  */
 //
-//  FlipViewAppDelegate.h
-//  FlipView
+//  FlipPubAppDelegate.h
+//  FlipPub
 //
 //  Created by Reefaq Mohammed on 16/07/11.
  
@@ -34,18 +34,21 @@
 @class WallViewController;
 @class UIViewExtention;
 @class MessageModel;
+@class EPubViewController;
 
-@interface FlipViewAppDelegate : NSObject <UIApplicationDelegate> {
+@interface FlipPubAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     WallViewController *viewController;
+    EPubViewController *detailViewController;
 }
 
-+ (FlipViewAppDelegate *) instance;
++ (FlipPubAppDelegate *) instance;
 -(void)showViewInFullScreen:(UIViewExtention*)viewToShow withModel:(MessageModel*)model;
 -(void)closeFullScreen;
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) WallViewController *viewController;
+@property (nonatomic, retain) IBOutlet EPubViewController *detailViewController;
 
 @end
 

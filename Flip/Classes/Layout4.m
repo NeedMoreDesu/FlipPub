@@ -23,7 +23,7 @@
  */
 //
 //  Layout4.m
-//  FlipView
+//  FlipPub
 //
 //  Created by Reefaq Mohammed on 16/07/11.
  

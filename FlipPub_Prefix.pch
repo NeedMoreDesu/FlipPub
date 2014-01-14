@@ -6,7 +6,7 @@
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
 	#import "ColorHelper.h"
-	#import "FlipViewAppDelegate.h"
+	#import "FlipPubAppDelegate.h"
 #endif
 
 // for below code thanks to https://gist.github.com/alex-cellcity/998472

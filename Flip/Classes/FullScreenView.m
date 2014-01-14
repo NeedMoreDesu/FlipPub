@@ -23,7 +23,7 @@
  */
 //
 //  FullScreenView.m
-//  FlipView
+//  FlipPub
 //
 //  Created by Reefaq Mohammed on 16/07/11.
  
@@ -93,7 +93,7 @@
 		[contentView addSubview:closeButton];
 
         infoButton = [[UIButton buttonWithType:UIButtonTypeInfoLight] retain];
-		[infoButton addTarget:self action:@selector(closeFullScreenView:) forControlEvents:UIControlEventTouchUpInside];
+		[infoButton addTarget:self action:@selector(switchToPub:) forControlEvents:UIControlEventTouchUpInside];
 		infoButton.alpha = 0;
 		[contentView addSubview:infoButton];
 
@@ -164,11 +164,18 @@
    [UIView commitAnimations];
 }
 
+- (void)switchToPub:(id)sender{
+    UIViewController *viewController = (UIViewController*)[FlipPubAppDelegate instance].detailViewController;
+    UIViewController *rootViewController = (UIViewController*)[FlipPubAppDelegate instance].viewController;
+    viewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [rootViewController presentViewController:viewController animated:YES completion:nil];
+}
+
 - (void)animationEnd:(NSString*)animationID finished:(NSNumber*)finished context:(void*)context {
    if ([animationID isEqualToString:@"CLOSEFULLSCREEN"]) {
 	   self.alpha = 0;
 	   [self removeFromSuperview];
-	   [[FlipViewAppDelegate instance] closeFullScreen];
+	   [[FlipPubAppDelegate instance] closeFullScreen];
    }
 }
 

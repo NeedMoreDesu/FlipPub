@@ -23,7 +23,7 @@
  */
 //
 //  TitleAndTextView.m
-//  FlipView
+//  FlipPub
 //
 //  Created by Reefaq Mohammed on 16/07/11.
  
@@ -115,7 +115,7 @@
 }
 
 -(void)tapped:(UITapGestureRecognizer *)recognizer {
-	[[FlipViewAppDelegate instance] showViewInFullScreen:self withModel:self.messageModel];
+	[[FlipPubAppDelegate instance] showViewInFullScreen:self withModel:self.messageModel];
 }
 
 

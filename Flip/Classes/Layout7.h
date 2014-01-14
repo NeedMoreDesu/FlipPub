@@ -23,7 +23,7 @@
  */
 //
 //  Layout7.h
-//  FlipView
+//  FlipPub
 //
 //  Created by Reefaq Mohammed on 16/07/11.
  
