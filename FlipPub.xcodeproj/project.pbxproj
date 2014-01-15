@@ -70,12 +70,13 @@
 		D74D92F6188562E400FB84B7 /* orangeslide.png in Resources */ = {isa = PBXBuildFile; fileRef = D74D92EC188562E400FB84B7 /* orangeslide.png */; };
 		D74D92F7188562E400FB84B7 /* slider_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = D74D92ED188562E400FB84B7 /* slider_ball.png */; };
 		D74D92F8188562E400FB84B7 /* yellowslide.png in Resources */ = {isa = PBXBuildFile; fileRef = D74D92EE188562E400FB84B7 /* yellowslide.png */; };
-		D74D92F9188562E400FB84B7 /* vhugo.epub in Resources */ = {isa = PBXBuildFile; fileRef = D74D92EF188562E400FB84B7 /* vhugo.epub */; };
 		D74D92FA188562E400FB84B7 /* EPubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F0188562E400FB84B7 /* EPubView.xib */; };
 		D74D92FB188562E400FB84B7 /* SearchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F1188562E400FB84B7 /* SearchResultsViewController.xib */; };
 		D74D92FC188562E400FB84B7 /* ChapterListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F2188562E400FB84B7 /* ChapterListViewController.xib */; };
 		D74D92FE188562E400FB84B7 /* AePubReader-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74D92F4188562E400FB84B7 /* AePubReader-Info.plist */; };
 		D74D930018858C7E00FB84B7 /* SearchWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = D74D92FF18858C7E00FB84B7 /* SearchWebView.js */; };
+		D77D8C641886B730008A8135 /* NSArray+Func.m in Sources */ = {isa = PBXBuildFile; fileRef = D77D8C5F1886B730008A8135 /* NSArray+Func.m */; };
+		D7C2619C1886C9C200DE2D24 /* book.epub in Resources */ = {isa = PBXBuildFile; fileRef = D7C2619B1886C9C200DE2D24 /* book.epub */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -195,12 +196,14 @@
 		D74D92EC188562E400FB84B7 /* orangeslide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeslide.png; sourceTree = "<group>"; };
 		D74D92ED188562E400FB84B7 /* slider_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_ball.png; sourceTree = "<group>"; };
 		D74D92EE188562E400FB84B7 /* yellowslide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowslide.png; sourceTree = "<group>"; };
-		D74D92EF188562E400FB84B7 /* vhugo.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = vhugo.epub; sourceTree = "<group>"; };
 		D74D92F0188562E400FB84B7 /* EPubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPubView.xib; sourceTree = "<group>"; };
 		D74D92F1188562E400FB84B7 /* SearchResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultsViewController.xib; sourceTree = "<group>"; };
 		D74D92F2188562E400FB84B7 /* ChapterListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterListViewController.xib; sourceTree = "<group>"; };
 		D74D92F4188562E400FB84B7 /* AePubReader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AePubReader-Info.plist"; sourceTree = "<group>"; };
 		D74D92FF18858C7E00FB84B7 /* SearchWebView.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = SearchWebView.js; sourceTree = "<group>"; };
+		D77D8C5E1886B730008A8135 /* NSArray+Func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Func.h"; sourceTree = "<group>"; };
+		D77D8C5F1886B730008A8135 /* NSArray+Func.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Func.m"; sourceTree = "<group>"; };
+		D7C2619B1886C9C200DE2D24 /* book.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = book.epub; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +326,7 @@
 			children = (
 				1D3623240D0F684500981E51 /* FlipPubAppDelegate.h */,
 				1D3623250D0F684500981E51 /* FlipPubAppDelegate.m */,
+				D77D8C5D1886B6F9008A8135 /* Additional */,
 				D70065F618854BFF00B54D22 /* ePub */,
 				D70065F518854BF000B54D22 /* Flip */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -345,6 +349,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				18D45F7A13D4365000BB814D /* close-popup.png */,
+				180E01AB13D1B201005DF14C /* missing-people.png */,
+				1873AC0B13D173AC001A999B /* unselected-page.png */,
+				1873AC0C13D173AC001A999B /* selected-page.png */,
+				1873ABE313D17377001A999B /* flip-illusion-oriented.jpg */,
+				1873ABE413D17378001A999B /* flip-illusion.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -368,12 +378,6 @@
 				18FD403613DB18460080C465 /* License */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
-				18D45F7A13D4365000BB814D /* close-popup.png */,
-				180E01AB13D1B201005DF14C /* missing-people.png */,
-				1873AC0B13D173AC001A999B /* unselected-page.png */,
-				1873AC0C13D173AC001A999B /* selected-page.png */,
-				1873ABE313D17377001A999B /* flip-illusion-oriented.jpg */,
-				1873ABE413D17378001A999B /* flip-illusion.png */,
 			);
 			path = Flip;
 			sourceTree = "<group>";
@@ -486,7 +490,7 @@
 		D74D92E91885614D00FB84B7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D74D92EF188562E400FB84B7 /* vhugo.epub */,
+				D7C2619B1886C9C200DE2D24 /* book.epub */,
 				D70066B518855B2F00B54D22 /* libxml2.dylib */,
 				8D1107310486CEB800E47090 /* FlipPub-Info.plist */,
 				32CA4F630368D1EE00C91783 /* FlipPub_Prefix.pch */,
@@ -508,6 +512,15 @@
 				D74D92F4188562E400FB84B7 /* AePubReader-Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D77D8C5D1886B6F9008A8135 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				D77D8C5E1886B730008A8135 /* NSArray+Func.h */,
+				D77D8C5F1886B730008A8135 /* NSArray+Func.m */,
+			);
+			name = Additional;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -562,13 +575,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C2619C1886C9C200DE2D24 /* book.epub in Resources */,
 				D74D930018858C7E00FB84B7 /* SearchWebView.js in Resources */,
 				D74D92F8188562E400FB84B7 /* yellowslide.png in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				1873ABE513D17378001A999B /* flip-illusion-oriented.jpg in Resources */,
 				1873ABE613D17378001A999B /* flip-illusion.png in Resources */,
 				1873AC0D13D173AC001A999B /* unselected-page.png in Resources */,
-				D74D92F9188562E400FB84B7 /* vhugo.epub in Resources */,
 				D74D92FC188562E400FB84B7 /* ChapterListViewController.xib in Resources */,
 				1873AC0E13D173AC001A999B /* selected-page.png in Resources */,
 				D74D92FB188562E400FB84B7 /* SearchResultsViewController.xib in Resources */,
@@ -620,6 +633,7 @@
 				D700668518854F1E00B54D22 /* zip.c in Sources */,
 				D70066AF18854F7900B54D22 /* CXMLNode_XPathExtensions.m in Sources */,
 				1873AC4613D1743A001A999B /* Layout4.m in Sources */,
+				D77D8C641886B730008A8135 /* NSArray+Func.m in Sources */,
 				D70066AE18854F7900B54D22 /* CXMLNode_PrivateExtensions.m in Sources */,
 				1873AC4713D1743A001A999B /* Layout3.m in Sources */,
 				D700667218854E9300B54D22 /* GTMNSString+HTML.m in Sources */,

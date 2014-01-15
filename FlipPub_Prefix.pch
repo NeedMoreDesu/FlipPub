@@ -7,6 +7,7 @@
     #import <UIKit/UIKit.h>
 	#import "ColorHelper.h"
 	#import "FlipPubAppDelegate.h"
+    #import "NSArray+Func.h"
 #endif
 
 // for below code thanks to https://gist.github.com/alex-cellcity/998472

@@ -49,24 +49,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after app launch. 
+    NSLog(@"%@", [[NSBundle mainBundle] pathForResource:@"book" ofType:@"epub"]);
+    [self.epubViewController loadEpub:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"book" ofType:@"epub"]]];
+
+    // Override point for customization after app launch.
 	viewController = [[WallViewController alloc] initWithNibName:nil bundle:nil];
 	
     [self.window setRootViewController:viewController];
     [self.window makeKeyAndVisible];
     
-//    self.window.rootViewController = self.detailViewController;
+//    self.window.rootViewController = self.epubViewController;
 //    [self.window makeKeyAndVisible];
-    [self.epubViewController loadEpub:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"vhugo" ofType:@"epub"]]];
 
-    int targetSpineIndex = arc4random() % self.epubViewController.loadedEpub.spineArray.count;
-    NSLog(@"%@", [self.epubViewController.loadedEpub.spineArray[targetSpineIndex] title]);
-
-    double delayInSeconds = 6.0;
-    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-        [epubViewController loadSpine:targetSpineIndex atPageIndex:0 highlightSearchResult:nil];
-    });
+//    int targetSpineIndex = arc4random() % self.epubViewController.loadedEpub.spineArray.count;
+//    NSLog(@"%@", [self.epubViewController.loadedEpub.spineArray[targetSpineIndex] title]);
+//
+//    double delayInSeconds = 6.0;
+//    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+//    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+//        [epubViewController loadSpine:targetSpineIndex atPageIndex:1 highlightSearchResult:nil];
+//    });
 
 	return YES;
 }

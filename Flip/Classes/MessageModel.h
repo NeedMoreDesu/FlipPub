@@ -47,4 +47,6 @@
 @property (nonatomic,retain) NSString* userName;
 @property (nonatomic,retain) NSString* userImage;
 
+@property (nonatomic,retain) NSNumber *epubChapter;
+
 @end

@@ -30,6 +30,7 @@
 //
 #import "FullScreenView.h"
 #import "MessageModel.h"
+#import "EPubViewController.h"
 
 @implementation FullScreenView
 
@@ -47,7 +48,7 @@
 		userImageView = [[UIImageView alloc] init];
 		[userImageView setBackgroundColor:[UIColor clearColor]];
 		[userImageView setFrame:CGRectMake(10, 10, 130, 130)];
-		[userImageView setImage:[UIImage imageNamed:@"missing-people.png"]];
+		[userImageView setImage:[UIImage imageNamed:messageModel.userImage]];
 		[contentView addSubview:userImageView];
 		
 		userNameLabel = [[UILabel alloc] init];
@@ -165,6 +166,10 @@
 }
 
 - (void)switchToPub:(id)sender{
+    [[FlipPubAppDelegate instance].epubViewController
+     loadSpine:self.messageModel.epubChapter.intValue
+     atPageIndex:0
+     highlightSearchResult:nil];
     UIViewController *viewController = (UIViewController*)[FlipPubAppDelegate instance].epubViewController;
     UIViewController *rootViewController = (UIViewController*)[FlipPubAppDelegate instance].viewController;
     viewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
